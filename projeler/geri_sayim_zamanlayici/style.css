@@ -1,0 +1,45 @@
+body {
+  background-color: #0d1117;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding-top: 50px;
+}
+
+.countdown-container {
+  background: #161b22;
+  padding: 30px;
+  border-radius: 15px;
+  width: 90%;
+  max-width: 500px;
+  margin: auto;
+  box-shadow: 0 0 15px #0ef;
+}
+
+input[type="datetime-local"] {
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+}
+
+#countdown {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+}
+
+#countdown div {
+  background: #21262d;
+  padding: 15px;
+  border-radius: 10px;
+  min-width: 60px;
+}
+
+#countdown span {
+  font-size: 28px;
+  font-weight: bold;
+  display: block;
+}

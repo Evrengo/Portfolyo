@@ -1,0 +1,107 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #222;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 30px;
+  text-decoration: none;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.projeler {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.proje {
+  background: white;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+}
+
+form input, form textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 100%;
+}
+
+form button {
+  background: #222;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  width: 20%;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #222;
+  color: white;
+  align-items: center;
+}
+
+.proje:hover {
+  transform: scale(1.03);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+}
+
+.proje a {
+  background-color:black;
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.btn.email-btn {
+  background-color: blue;
+}
+
+.btn {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+  margin:0 10px;
+  display: inline-flex;
+  align-items: center;
+}
+
+html {
+  scroll-behavior: smooth;
+}

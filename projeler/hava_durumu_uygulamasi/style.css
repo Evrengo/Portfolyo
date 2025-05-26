@@ -1,0 +1,82 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #e9f0f7;
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  align-items: flex-start;
+}
+
+.container {
+  max-width: 400px;
+  width: 100%;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #bbb;
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.dropdown {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.dropdown-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  border: 2px solid #007bff;
+  background-color: #007bff;
+  color: white;
+  border-radius: 6px;
+  user-select: none;
+}
+
+.dropdown-list {
+  position: absolute;
+  width: 100%;
+  max-height: 220px;
+  overflow-y: auto;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: 1px solid #007bff;
+  border-top: none;
+  border-radius: 0 0 6px 6px;
+  background: white;
+  z-index: 10;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+.dropdown-list li {
+  padding: 10px 15px;
+  cursor: pointer;
+  border-bottom: 1px solid #eee;
+}
+
+.dropdown-list li:hover {
+  background-color: #007bff;
+  color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+.weather-result {
+  background: #f7faff;
+  border: 1px solid #007bff;
+  border-radius: 8px;
+  padding: 15px;
+  min-height: 110px;
+  box-shadow: 0 0 5px #aaa;
+}

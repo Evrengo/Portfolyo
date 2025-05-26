@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hava Durumu Seçmeli Demo</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Hava Durumu Seçiniz</h1>
+
+    <div class="dropdown">
+      <button id="dropdownBtn" class="dropdown-btn">Şehir Seçiniz ▼</button>
+      <ul id="cityList" class="dropdown-list hidden">
+        <li data-city="istanbul">İstanbul</li>
+        <li data-city="ankara">Ankara</li>
+        <li data-city="izmir">İzmir</li>
+        <li data-city="antalya">Antalya</li>
+        <li data-city="bursa">Bursa</li>
+        <li data-city="trabzon">Trabzon</li>
+        <li data-city="gaziantep">Gaziantep</li>
+        <li data-city="konya">Konya</li>
+        <li data-city="adana">Adana</li>
+        <li data-city="eskişehir">Eskişehir</li>
+      </ul>
+    </div>
+
+    <div id="weatherResult" class="weather-result">
+      <p>Bir şehir seçiniz...</p>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
